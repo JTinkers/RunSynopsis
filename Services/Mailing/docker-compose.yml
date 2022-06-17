@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  rsmailing:
+    container_name: rsmailing
+    image: rsmailing
+    build:
+      context: .
+      dockerfile: Server/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - "7600:80"
+    depends_on: [redis]
+
+  redis:
+    container_name: rsmailing-redis
+    image: redis
+    ports:
+      - "7601:6379"
+    volumes:
+      - redis:/data
+
+networks:
+  default:
+    name: rsnetwork
+volumes:
+  redis:
+    external: false

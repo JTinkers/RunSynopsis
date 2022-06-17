@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RunSynopsis.Common</id>
+    <version>1.0.2</version>
+    <authors>RunSynopsis.Common</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Git Repositories\RunSynopsis\Services\Common\Common\bin\Release\net6.0\RunSynopsis.Common.dll" target="lib\net6.0\RunSynopsis.Common.dll" />
+  </files>
+</package>

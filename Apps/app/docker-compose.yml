@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  rsapp:
+    image: rsapp
+    container_name: rsapp
+    ports:
+      - "8080:80"
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+networks:
+  default:
+    name: rsnetwork

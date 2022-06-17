@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+	<CodeAnalysisRuleSet>../../CodeAnalysis.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+</Project>

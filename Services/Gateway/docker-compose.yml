@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  rsgateway:
+    container_name: rsgateway
+    image: rsgateway
+    build:
+      context: .
+      dockerfile: Server/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443
+    ports:
+      - "7000:443"
+    depends_on: [redis]
+
+  redis:
+    container_name: rsgateway-redis
+    image: redis
+    ports:
+    - "7001:6379"
+
+networks:
+  default:
+    name: rsnetwork

@@ -1,0 +1,12 @@
+E:\Git Repositories\RunSynopsis\Services\Common\Common\bin\Release\net6.0\RunSynopsis.Common.deps.json
+E:\Git Repositories\RunSynopsis\Services\Common\Common\bin\Release\net6.0\RunSynopsis.Common.dll
+E:\Git Repositories\RunSynopsis\Services\Common\Common\bin\Release\net6.0\RunSynopsis.Common.pdb
+E:\Git Repositories\RunSynopsis\Services\Common\Common\obj\Release\net6.0\RunSynopsis.Common.csproj.AssemblyReference.cache
+E:\Git Repositories\RunSynopsis\Services\Common\Common\obj\Release\net6.0\RunSynopsis.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git Repositories\RunSynopsis\Services\Common\Common\obj\Release\net6.0\RunSynopsis.Common.AssemblyInfoInputs.cache
+E:\Git Repositories\RunSynopsis\Services\Common\Common\obj\Release\net6.0\RunSynopsis.Common.AssemblyInfo.cs
+E:\Git Repositories\RunSynopsis\Services\Common\Common\obj\Release\net6.0\RunSynopsis.Common.csproj.CoreCompileInputs.cache
+E:\Git Repositories\RunSynopsis\Services\Common\Common\obj\Release\net6.0\RunSynopsis.Common.dll
+E:\Git Repositories\RunSynopsis\Services\Common\Common\obj\Release\net6.0\refint\RunSynopsis.Common.dll
+E:\Git Repositories\RunSynopsis\Services\Common\Common\obj\Release\net6.0\RunSynopsis.Common.pdb
+E:\Git Repositories\RunSynopsis\Services\Common\Common\obj\Release\net6.0\ref\RunSynopsis.Common.dll
