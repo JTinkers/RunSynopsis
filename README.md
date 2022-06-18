@@ -7,6 +7,7 @@ The key elements of this project are:
 - microservices
 - hexagonal architecture
 - high retention with caching and database replication
+- services: auth, content, contact, gateway, mailing, storage
 - gateway with redirects, graphql stitching, api throttling, header propagation, auth propagation etc.
 
 
